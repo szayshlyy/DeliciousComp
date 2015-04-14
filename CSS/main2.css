@@ -1,0 +1,145 @@
+/* CSS */
+body {
+  box-sizing: border-box;
+  font-family: 'Droid Serif', serif;
+  color: gray;
+/*  width: 85%;
+  margin: 0 auto;*/
+  padding-top: 3em;
+}
+
+/*******  NAV / Header   *******/
+
+.delicious {
+  color: black;
+  font-size: 2em;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 300;
+  margin: 0;
+}
+
+.sub-heading {
+  font-size: .3em;
+
+}
+
+.navList {
+  display: inline;
+}
+
+li:nth-child(6) {
+  padding-right: .8em;
+}
+
+
+/*******  Main  ********/
+
+h1 {
+  color: black;
+  font-family: 'Fjalla One', sans-serif;
+  letter-spacing: .03em;
+  padding-top: 1.3em;
+  border-top: solid lightgray;
+  border-top-width: 15px;
+  margin-bottom: 0;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: .6em;
+}
+
+.print {
+  font-size: .6em;
+}
+
+.mainImg {
+  max-width: 100%;
+  margin-bottom: 2em;
+}
+
+.recipe {
+  font-size: .8em;
+  letter-spacing: .03em;
+  line-height: 1.5em;
+  text-indent: 3em;
+}
+
+.recipeList {
+  background-image: url(../list-bg.png);
+  background-repeat: no-repeat;
+}
+
+
+.listItem {
+  padding-top: .9em;
+  list-style-type: none;
+}
+
+
+/*******  Bio Section   ********/
+
+section {
+  border-top: solid lightgray;
+  border-top-width: 15px;
+  margin-top: 1em;
+  padding-top: 2em;
+}
+
+.vanessa {
+  display: inline-block;
+  margin-bottom: 3em;
+}
+
+.bio {
+  font-size: .8em;
+  letter-spacing: .03em;
+  line-height: 1.5em;
+}
+
+h2 {
+  margin: 0;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: .05em;
+}
+.share {
+  text-align: center;
+  padding-top: 1em;
+  font-size: .8em;
+  width: 11em;
+  height: 2em;
+  letter-spacing: .05em;
+  background-color: indianred;
+}
+
+
+/*******  Footer  ********/
+
+footer {
+  border-top: solid gray;
+  border-top-width: 1px;
+}
+
+footer img {
+  margin-top: -1.3em;
+  background-color: white;
+  padding: 0px 3px;
+}
+
+.endNotes {
+  margin-top: 3em;
+  font-size: .8em;
+  letter-spacing: .03em;
+
+}
+
+
+
+
+
+
