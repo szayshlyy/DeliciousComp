@@ -1,0 +1,81 @@
+/*******  CSS/LAYOUT ********/
+
+body {
+  box-sizing: border-box;
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 3em;
+}
+
+
+/*******  HEADER/ NAV  ********/
+
+.flex-header {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 2em;
+}
+
+ .flex-header-1 {
+    width: 3.3em;
+}
+ .flex-header-2 {
+    flex-grow:2;
+    padding-left: .7em;
+}
+ .flex-header-3 {
+    align-self: center;
+}
+
+
+/*******  MAIN  ********/
+
+.flex-main {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-top: 3em;
+    padding-bottom: 1.5em;
+    align-items: flex-end;
+}
+
+.flex-recipeList {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    align-items: center;
+    background-image: url(../list-bg.png);
+    background-repeat: no-repeat;
+    margin-bottom: 2em;
+}
+
+
+/*******  BIO  ********/
+
+.flex-bio {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 3em;
+}
+
+
+/*******  FOOTER  ********/
+
+.flex-footer {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5em;
+}
+
+

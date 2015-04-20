@@ -1,0 +1,120 @@
+/*******  CSS/MODULES ********/
+
+/*******  HEADER/ NAV  ********/
+
+.header__div__h1 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 2.2em;
+  font-weight:100;
+}
+.header__div__p {
+  font-family: 'Abel', sans-serif;
+  color: gray;
+  font-size: .7em;
+  margin-top: -5px;
+}
+
+  nav a:nth-child(6) {
+    padding-right: .5em;
+  }
+
+/*******  MAIN  ********/
+
+main {
+  font-family: 'Droid Serif', serif;
+  color: gray;
+}
+  .main__div {
+    border-top: solid lightgray;
+    border-top-width: 15px;
+    /*  border-image: url(../dash-border.png);
+    border-image-repeat: repeat;*/
+  }
+    .main__div__h1 {
+      font-family: 'Oswald', sans-serif;
+      font-size: 2em;
+      color:black;
+    }
+    .main__div__h3 {
+      font-size: .6em;
+    }
+
+  .print {
+    font-size: .7em;
+  }
+
+  .main__img{
+    max-width: 100%;
+    margin-bottom: 2em;
+  }
+
+  .main__p {
+    font-size: .8em;
+    letter-spacing: .03em;
+    line-height: 1.5em;
+    text-indent: 3em;
+    padding-bottom: 1.5em;
+  }
+
+  .listItem {
+    padding-top: .9em;
+    list-style-type: none;
+    font-family: 'Patrick Hand', cursive;
+  }
+
+/*******  BIO  ********/
+
+.main__section-bio {
+  border-top: solid lightgray;
+  border-top-width: 15px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-top: 2em;
+}
+
+  .main__section__div {
+    padding: 0px 10px 0px 7px;
+  }
+
+    .vanessa {
+      color: black;
+      padding-bottom: .5em;
+    }
+
+    .bio {
+      font-size: .8em;
+      letter-spacing: .03em;
+      line-height: 1.5em;
+    }
+
+    .button {
+      text-align: center;
+      padding-top: 1em;
+      font-size: .8em;
+      width: 11em;
+      height: 2em;
+      background-color: indianred;
+      text-decoration: none;
+      color: white;
+    }
+
+/*******  FOOTER  ********/
+
+footer {
+  border-top: solid lightgray;
+  border-top-width: 1px;
+}
+
+  .footer__img {
+    margin-top: -1.3em;
+    background-color: white;
+    padding: 0px 3px;
+    margin-bottom: 2em;
+  }
+
+  .footer__p {
+    font-size: .8em;
+    letter-spacing: .03em;
+    color: lightgray;
+  }
+
