@@ -62,6 +62,12 @@ main {
     font-family: 'Patrick Hand', cursive;
   }
 
+    .checkbox {
+      margin-right: 7px;
+      opacity: .4;
+    }
+
+
 /*******  BIO  ********/
 
 .main__section-bio {
